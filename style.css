@@ -1,0 +1,88 @@
+.display
+{
+    width:50%;
+    height:70px;
+    flex-shrink:0;
+    border-radius: 12px;
+background: #181F32;
+text-align:right;
+
+}
+
+/*.display input
+{
+    text-color: #FFF;
+text-align: right;
+leading-trim: both;
+text-edge: cap;
+font-family: Segoe UI;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}*/
+
+.display input
+{
+    margin-top:20px;
+    background:#181F32;
+    border:none;
+    color:white;
+    font-size: 25px;
+    text-align:right;
+    color: #FFF;
+leading-trim: both;
+text-edge: cap;
+font-family: Segoe UI;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-right:9px;
+    
+}
+
+.keys
+{
+    border-radius: 12px;
+background: #252D44;
+width:50%;
+height:500px;
+margin-top:10px;
+}
+.row
+{
+    text-align:center;
+    margin:10px;
+    padding-top:20px;
+}
+.row button
+{
+    border-radius: 10px;
+background: #EAE3DB;
+margin:4px;
+width:90px;
+height:50px;
+color: #3B4664;
+text-align: center;
+leading-trim: both;
+text-edge: cap;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+#equals
+{
+    background: #D13F30;
+    color:white;
+    font-family: Inter;
+}
+#res
+{
+    background: #647299;
+    color: #FFF;
+    font-family: Inter;
+}
